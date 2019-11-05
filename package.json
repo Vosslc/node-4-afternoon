@@ -2,9 +2,14 @@
   "name": "swag-node-shop",
   "version": "1.0.0",
   "description": "Node 3 - Afternoon",
+  "private": true,
   "main": "server/index.js",
+  "proxy": "http://localhost:3000",
   "dependencies": {
     "axios": "^0.16.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-icons": "^2.2.5",
@@ -22,7 +27,6 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:3000",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devlemire/swag-node-shop.git"
